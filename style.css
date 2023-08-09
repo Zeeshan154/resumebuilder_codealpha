@@ -1,0 +1,57 @@
+@import url(https://fonts.googleapis.com/css?family=Cabin+Condensed);
+
+
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #fbff00 0%,
+    #25df11 29%,
+    #000000 67%,
+    #ffea00 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #f7f1f1;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 80px;
+      font-family:poppin;
+}
+
+
+.gender-field-heading{
+    color:rgb(48, 6, 107);
+    font-size: 20px;
+    font-family:"Roboto";
+}
+.error-message{
+    color:red;
+    font-size:15px;
+    font-family:"Roboto";
+}
+.imag-contianer{
+    background-color: ;
+    width: 100vw;
+}
+
+.obj{
+    color:rgb(255, 217, 0);
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+
+
+@keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
